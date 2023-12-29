@@ -1,0 +1,14 @@
+<%
+  require 'json'
+  scores = JSON.parse(File.read('scores.json'))
+%>
+<html>
+  <body>
+  <table>
+    <tr><td>TokenType</td><td>Name</td><td>Rarity</td><td>Score</td></tr>
+    <% scores.each do |tokenType, e| %>
+    <tr><td><%= tokenType %></td><td><%= e['name'] %></td><td><%= e['rarity'] %></td><td><%= e['score'] %></td></tr>
+    <% end %>
+  </table>
+  </body>
+</html>
