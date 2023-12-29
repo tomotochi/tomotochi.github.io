@@ -1,4 +1,4 @@
-{
+const scores = {
   "100000bb": {"name":"フェイ＆カブト","kind":"キャラクター","rarity":null,"series":"-月を狙う死神と蘇りし王-","score":660},
   "100000d0": {"name":"騎士 ランスロット","kind":"キャラクター","rarity":null,"series":"-円卓の騎士-","score":276},
   "100000da": {"name":"大納言エル～シーズン1記念Ver～","kind":"その他","rarity":null,"score":660},
@@ -18,8 +18,8 @@
   "1000012b": {"name":"暗黒コーヒー②","kind":"4コマ","rarity":null,"series":"2周年記念","score":144},
   "1000012c": {"name":"暗黒コーヒー③","kind":"4コマ","rarity":null,"series":"2周年記念","score":144},
   "1000012d": {"name":"暗黒コーヒー④","kind":"4コマ","rarity":null,"series":"2周年記念","score":144},
-  "10000151": {"name":"ロウエナ","kind":"キャラクター","rarity":null,"series":"-最強の矛と最終の盾-","score":960},
-  "1000016a": {"name":"大納言エル～シーズン3記念Ver～","kind":"その他","rarity":null,"series":"招待キャンペーン","score":1800},
+  "10000151": {"name":"ロウエナ","kind":"キャラクター","rarity":null,"series":"-最強の矛と最終の盾-",score:960},
+  "1000016a": {"name":"大納言エル～シーズン3記念Ver～","kind":"その他","rarity":null,"series":"招待キャンペーン",score:1800},
   "100003e9": {"name":"スーパーエル","kind":"ギア","rarity":5,"series":"シーズン2","score":204},
   "100003ea": {"name":"クーホリン","kind":"ギア","rarity":5,"series":"シーズン1","score":204},
   "100003eb": {"name":"二刀アーサー","kind":"ギア","rarity":5,"series":"シーズン1","score":204},
@@ -464,5 +464,5 @@
   "100005f4": {"name":"サクラ模様","kind":"ギア","rarity":4,"series":"シーズン3","score":50},
   "10000654": {"name":"サングラス【S3】","kind":"ギア","rarity":4,"series":"シーズン3","score":150},
   "10000655": {"name":"ゴージャスクラウン","kind":"ギア","rarity":4,"series":"シーズン3","score":200},
-  "10000656": {"name":"富豪のたすき","kind":"ギア","rarity":4,"series":"シーズン3","score":300}
+  "10000656": {"name":"富豪のたすき","kind":"ギア","rarity":4,"series":"シーズン3","score":300},
 }
